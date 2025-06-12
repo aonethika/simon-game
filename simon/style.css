@@ -64,3 +64,24 @@ h1{
     box-shadow: 0 0 20px white;
     opacity: 0.5;
 }
+
+#restart-btn{
+    position: fixed;
+    bottom:30px;
+    right:40%;
+    padding: 10px 20px;
+    background-color: rgb(36, 36, 135);
+    border: 5px  bisque;
+    border: 12px;
+    font-family: Indie Flower;
+    text-shadow: 0.5pc;
+    color:bisque;
+    text-shadow: 2px 2px 4px rgb(228, 137, 96);
+    font-size: 30px;
+
+}
+
+#restart-btn:hover {
+    background-color:rgb(3, 3, 61) ;
+    
+}
