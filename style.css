@@ -7,7 +7,7 @@ body{
 
     color: bisque;
     text-align: center;
-    margin-top: 250px;
+    
 }
 
 
@@ -85,3 +85,29 @@ h1{
     background-color:rgb(3, 3, 61) ;
     
 }
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 40px;
+}
+
+.sq {
+    display: grid;
+    grid-template-columns: repeat(2, 20px);
+    gap: 10px;
+}
+
+.sq div {
+    width: 20px;
+    height: 20px;
+}
+
+#yellow { background-color: yellow; }
+#blue   { background-color: blue; }
+#green  { background-color: green; }
+#red    { background-color: red; }
+   
